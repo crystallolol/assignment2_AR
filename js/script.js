@@ -10,7 +10,7 @@ document.getElementById("change-wood").addEventListener("click", function() {
 });
 
 // Change Fabric for Stool
-var myModels_stool = ["/models/stool_denim.glb", "/models/stool_flannel.glb", "/models/stool.glb",]
+var myModels_stool = ["/models/stool_denim.glb", "/models/stool_flannel.glb", "/models/stool.glb"]
 var counter = 0;
 document.getElementById("change-fabric").addEventListener("click", function() {
     counter++;
@@ -21,7 +21,7 @@ document.getElementById("change-fabric").addEventListener("click", function() {
 });
 
 // Change Material for Chair
-var myModels_chair = ["/models/chair_denim.glb", "/models/chair_leather.glb", "/models/chair_white.glb",]
+var myModels_chair = ["/models/chair_denim.glb", "/models/chair_leather.glb", "/models/chair_white.glb"]
 var counter = 0;
 document.getElementById("change-material").addEventListener("click", function() {
     counter++;

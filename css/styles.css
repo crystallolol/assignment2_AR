@@ -23,7 +23,7 @@ model-viewer {
     background-image: url(../images/hero_1.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 40rem;
+    min-height: 50rem;
 }
 .hero h1 {
     font-size: 1.8rem;
@@ -31,37 +31,6 @@ model-viewer {
     margin: 0;
     color: brown;
 }
-
-.products h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    color:black
-}
-
-
-.products-gallery {
-    display: grid;
-    grid-template-columns: 1;
-}
-
-.product-card {
-    margin: 5px;
-    border: 1px solid;
-    float: left;
-    width: 180px;
-}
-
-
-.product-card h3 {
-    text-align: center;
-    margin: 0;
-    color: black;
-}
-.product-card img {
-    width: 100%;
-    size:150%;
-}
-
 
 .button {
     border: 1px white solid;
@@ -88,8 +57,6 @@ model-viewer {
     color:lightgray;
 }
 
-/* ***************************************** */
-/* homepage portfolio section styles */
 #portfolio {
     background-color:#F9F7F5;
 }
