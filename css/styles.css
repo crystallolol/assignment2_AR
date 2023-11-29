@@ -23,7 +23,7 @@ model-viewer {
     background-image: url(../images/hero_1.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 50rem;
+    min-height: 40rem;
 }
 .hero h1 {
     font-size: 1.8rem;
