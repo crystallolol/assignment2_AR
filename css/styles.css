@@ -12,8 +12,8 @@ model-viewer {
     --progress-mask: transparent;
     --progress-container-color: transparent;
     background-color:antiquewhite;
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
 }
 
 .hero {
@@ -72,7 +72,8 @@ model-viewer {
 .portfolio-content{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px;
+    align-items: center;
 }
 
 .gallery {
@@ -116,5 +117,13 @@ model-viewer {
 
     .portfolio-content{
         display: block;
+        align-items: center;
     }    
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    model-viewer {
+        margin: 0 auto; 
+        display: block; 
+    }
 }
